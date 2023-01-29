@@ -1,17 +1,16 @@
 [
   // Modern era
 	{
-		"name": "Missile Cruiser",
+		"name": "Battleship",
 		"unitType": "Ranged Water",
-		"movement": 7,
-		"strength": 80,
-		"rangedStrength": 100,
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
 		"range": 3,
-		"interceptRange": 2,
-		"cost": 425,
-		"requiredTech": "Robotics",
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	}

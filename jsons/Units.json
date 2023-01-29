@@ -12,6 +12,7 @@
 		"requiredTech": "Electronics",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
+		"upgradesTo": "Missile Cruiser",
 		"attackSound": "shipguns"
 	}
 ]
